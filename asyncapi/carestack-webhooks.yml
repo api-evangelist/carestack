@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.carestack.com/
+type: Webhooks
+spec_type: none
+summary: >-
+  The CareStack developer portal advertises webhooks for real-time data
+  propagation as one of three integration approaches (alongside RESTful APIs and
+  scheduled data extracts). The concrete webhook event catalog, payload schemas,
+  and subscription/registration mechanics are published behind the developer
+  portal sign-in and are not available on a public page, so no event names or
+  schemas are captured here (no fabrication). This artifact records that a
+  webhook event surface genuinely exists; it is not a full AsyncAPI document.
+webhooks:
+  advertised: true
+  transport: https
+  purpose: real-time data propagation to partner/integration systems
+  registration: behind developer portal sign-in (https://developer.carestack.com/)
+  events: []
+notes: >-
+  Upgrade path: once portal credentials/vendor access are available, capture the
+  documented event topics and payloads and emit a full AsyncAPI 2.x/3.x spec at
+  asyncapi/carestack-<service>-asyncapi.yml (method: searched).

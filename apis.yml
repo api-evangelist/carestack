@@ -1,8 +1,14 @@
 aid: carestack
 name: CareStack
-description: 'CareStack is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CareStack is an all-in-one, cloud-based dental practice management platform used by
+  dental practices and DSOs (dental service organizations) for scheduling, patient management,
+  clinical charting, billing, payments, revenue cycle management, and analytics. For developers,
+  CareStack exposes a RESTful API surface covering patient resources (patient information, health
+  conditions, payment summaries, communications, treatment/procedure codes, and documents) and
+  practice resources, complemented by webhooks for real-time data propagation and scheduled data
+  extracts. The platform is HIPAA compliant and carries SOC 2 Type 2, ISO 27001:2022, and GDPR
+  attestations, published via its trust center. This profile was surfaced as an Accel portfolio
+  company and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +16,46 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://a.storyblok.com/f/144863/1200x630/db57474aa8/carestack-og.png
 tags:
 - Company
 - Healthcare
-apis: []
+- Dental
+- Practice Management
+- Electronic Health Records
+- Revenue Cycle Management
+- Patient Engagement
+- Payments
+- SaaS
+apis:
+- name: CareStack API
+  description: 'RESTful API surface for CareStack dental practice management, covering patient
+    resources (patient information, health conditions, payment summaries, communications, treatment
+    codes, documents) and practice resources, plus webhooks for real-time data propagation and
+    scheduled data extracts. Full reference and authentication details are published behind the
+    developer portal sign-in.'
+  humanURL: https://developer.carestack.com/
+  tags:
+  - Dental
+  - Practice Management
+  - Healthcare
+  properties:
+  - type: Webhooks
+    url: asyncapi/carestack-webhooks.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +63,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.carestack.com
+  url: https://www.carestack.com
+- type: DeveloperPortal
+  url: https://developer.carestack.com/
+- type: Integrations
+  url: integrations/_index.yml
+- type: Pricing
+  url: https://carestack.com/pricing
+- type: SignUp
+  url: https://carestack.com/demo
+- type: Support
+  url: https://carestack.com/support
+- type: Blog
+  url: https://resources.carestack.com/
+- type: TermsOfService
+  url: https://carestack.com/legal/2020-1/termsofuse
+- type: PrivacyPolicy
+  url: https://carestack.com/legal/2020-1/privacypolicy
+- type: TrustCenter
+  url: security/carestack-trust-center.yml
+- type: Compliance
+  url: https://trust.carestack.com/
+- type: Conformance
+  url: conformance/carestack-conformance.yml
+- type: DomainSecurity
+  url: security/carestack-domain-security.yml
+- type: Webhooks
+  url: asyncapi/carestack-webhooks.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

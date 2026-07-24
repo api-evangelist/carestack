@@ -1,0 +1,97 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.carestack.com/
+summary: >-
+  Technology/integration partners advertised on the CareStack developer portal.
+  These are listing-only entries: CareStack publishes no public OpenAPI and the
+  partner-side operations are not verifiable, so no forkable Arazzo workflows are
+  authored (arazzo: null, status: pending-partner-spec). No operations are
+  fabricated. Entries whose partner exists in the API Evangelist network are
+  noted via `network` for a future 2-source Arazzo build.
+integrations:
+- slug: carestack-birdeye
+  label: Birdeye
+  partner: birdeye
+  category: reputation-patient-experience
+  use_case: Reviews, messaging, and patient experience for dental practices.
+  network: birdeye
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-ringcentral
+  label: RingCentral
+  partner: ringcentral
+  category: communications
+  use_case: Cloud phone, messaging, and contact-center integration for practices.
+  network: ringcentral
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-swell
+  label: Swell
+  partner: swell
+  category: reviews-patient-engagement
+  use_case: Patient reviews and engagement.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-pearl
+  label: Pearl
+  partner: pearl
+  category: dental-ai-imaging
+  use_case: AI-assisted radiologic/imaging analysis.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-jive
+  label: Jive
+  partner: jive
+  category: communications
+  use_case: VoIP/phone integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-mango
+  label: Mango
+  partner: mango-voice
+  category: communications
+  use_case: Dental phone/VoIP integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-opencare
+  label: Open Care
+  partner: opencare
+  category: patient-acquisition
+  use_case: Online patient booking and acquisition.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-sota
+  label: Sota
+  partner: sota-imaging
+  category: dental-imaging
+  use_case: Intraoral imaging integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-tigerview
+  label: Tiger View
+  partner: tigerview
+  category: dental-imaging
+  use_case: Dental imaging integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-xchart
+  label: XChart
+  partner: xchart
+  category: clinical-charting
+  use_case: Clinical charting integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-healier
+  label: Healier
+  partner: healier
+  category: patient-engagement
+  use_case: Patient engagement integration.
+  arazzo: null
+  status: pending-partner-spec
+- slug: carestack-complete-specialty
+  label: Complete Specialty
+  partner: complete-specialty
+  category: specialty-referrals
+  use_case: Specialty/referral workflow integration.
+  arazzo: null
+  status: pending-partner-spec
