@@ -40,6 +40,16 @@ tags:
 - Revenue Cycle Management
 - Patient Engagement
 - Payments
+- Software-as-a-Service
+tags_raw:
+- Company
+- Healthcare
+- Dental
+- Practice Management
+- Electronic Health Records
+- Revenue Cycle Management
+- Patient Engagement
+- Payments
 - SaaS
 apis:
 - name: CareStack API
