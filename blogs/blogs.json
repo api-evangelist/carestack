@@ -2,6 +2,13 @@
   "repo": "carestack",
   "feeds": [
     {
+      "source": "https://resources.carestack.com/",
+      "feed_url": "https://resources.carestack.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://carestack.com/support",
       "feed_url": "https://carestack.com/support",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
